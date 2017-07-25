@@ -8,9 +8,10 @@ This is extremely useful when using flyway - no longer are you forced to version
 
 ## Usage
 
-```plugins {
-    id "org.flywaydb.flyway" version "4.1.2"
-  	id "org.blinkmob.flywayrename" version "1.0.0"
-}```
+```
+plugins {
+    id "org.blinkmob.flywayrename" version "1.0.0"
+}
+```
 
 For extra convenience add `flywayMigrate.dependsOn flywayRename` to your build script. Happy migrating!
