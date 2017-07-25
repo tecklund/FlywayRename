@@ -14,4 +14,6 @@ plugins {
 }
 ```
 
+`gradle flywayRename`
+
 For extra convenience add `flywayMigrate.dependsOn flywayRename` to your build script. Happy migrating!
